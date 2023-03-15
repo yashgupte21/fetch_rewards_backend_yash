@@ -59,7 +59,7 @@ Next, in a new tab open the following url to get points received by the  corresp
 
 `http://127.0.0.1:8000/receipts/{id}/points`
 
-Example:
+Example: \
 `http://127.0.0.1:8000/receipts/3cbec19d-7515-4d40-96ae-8eeab4c4d996/points`
 
 Outputs points:
