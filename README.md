@@ -46,11 +46,10 @@ go run main.go
 
 6. Once the code is executed, open the following url on your local browser
 
-```
-http://127.0.0.1:8000/receipts/process
-```
+`http://127.0.0.1:8000/receipts/process`
+
 Output:
-```
+```json
 {"id":"3cbec19d-7515-4d40-96ae-8eeab4c4d996"} 
 ```
 
@@ -58,16 +57,13 @@ The above API call will generate a unique id for a particular receipt
 
 Next, in a new tab open the following url to get points received by the  corresponding receipt id 
 
-```
-http://127.0.0.1:8000/receipts/{id}/points
-```
+`http://127.0.0.1:8000/receipts/{id}/points`
 
 Example:
-```
-http://127.0.0.1:8000/receipts/3cbec19d-7515-4d40-96ae-8eeab4c4d996/points
-```
+`http://127.0.0.1:8000/receipts/3cbec19d-7515-4d40-96ae-8eeab4c4d996/points`
+
 Outputs points:
-```
+```json
 {"points":109}
 ```
 
