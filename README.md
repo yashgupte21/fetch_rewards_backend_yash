@@ -14,6 +14,7 @@ Email: ygupte@hawk.iit.edu
 Project is developed with:
 * Mac Machine
 * Go: go1.20.1 darwin/arm64
+* Browser : Google Chrome 
 --- 
 ## Installation Guide 
 
