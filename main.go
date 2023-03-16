@@ -110,7 +110,7 @@ func CalculatePoints(res Receipt) int { // takes json and returns points
 		floatPrice, _ := strconv.ParseFloat(item.Price, 64)
 		trimmedDesc := strings.TrimSpace(item.ShortDescription)
 		if len(trimmedDesc)%3 == 0 {
-			points = points + int(math.Round(floatPrice*0.2))
+			points = points + int(math.Ceil(floatPrice*0.2))
 		}
 	}
 

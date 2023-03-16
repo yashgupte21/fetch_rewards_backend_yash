@@ -67,7 +67,7 @@ Outputs points:
 {"points":109}
 ```
 
-Executing this program will Extract AWS SQS Queue Messages from Localstack, convert them into JSON format, Transform the data as required and Load it on the Postgres database docker container.
+Executing this program will 
 
 --- 
 
