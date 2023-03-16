@@ -44,7 +44,9 @@ go mod tidy
 go run main.go
 ```
 
-6. Once the code is executed, open the following url on your local browser
+6. After starting the server, run the POST API first which generates the id and then the GET API will be run which provides points earned by a receipt
+
+7. Once the code is executed, open the following url on your local browser
 
 `http://127.0.0.1:8000/receipts/process`
 
@@ -66,8 +68,6 @@ Outputs points:
 ```json
 {"points":109}
 ```
-
-Executing this program will 
 
 --- 
 
